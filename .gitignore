@@ -1,0 +1,11 @@
+.repl_history
+build
+resources/*.nib
+resources/*.momd
+resources/*.storyboardc
+xcuserdata
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+!default.xcworkspace
+vendor/Pods

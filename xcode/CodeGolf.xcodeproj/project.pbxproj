@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8898F615B5AF390017BB85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8898F515B5AF390017BB85 /* UIKit.framework */; };
+		9F8898F815B5AF390017BB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8898F715B5AF390017BB85 /* Foundation.framework */; };
+		9F8898FA15B5AF390017BB85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8898F915B5AF390017BB85 /* CoreGraphics.framework */; };
+		9F8898FC15B5AF390017BB85 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8898FB15B5AF390017BB85 /* CoreData.framework */; };
+		9F88990215B5AF390017BB85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F88990015B5AF390017BB85 /* InfoPlist.strings */; };
+		9F88990415B5AF390017BB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88990315B5AF390017BB85 /* main.m */; };
+		9F88990815B5AF390017BB85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88990715B5AF390017BB85 /* AppDelegate.m */; };
+		9F88991115B5AF390017BB85 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88991015B5AF390017BB85 /* MasterViewController.m */; };
+		9F88991415B5AF390017BB85 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88991315B5AF390017BB85 /* DetailViewController.m */; };
+		9F88991D15B5AF790017BB85 /* CodeGolf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F88991A15B5AF790017BB85 /* CodeGolf.xcdatamodeld */; };
+		9F88991E15B5AF790017BB85 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F88991C15B5AF790017BB85 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F8898F115B5AF390017BB85 /* CodeGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8898F515B5AF390017BB85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8898F715B5AF390017BB85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8898F915B5AF390017BB85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8898FB15B5AF390017BB85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9F8898FF15B5AF390017BB85 /* CodeGolf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodeGolf-Info.plist"; sourceTree = "<group>"; };
+		9F88990115B5AF390017BB85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F88990315B5AF390017BB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F88990515B5AF390017BB85 /* CodeGolf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeGolf-Prefix.pch"; sourceTree = "<group>"; };
+		9F88990615B5AF390017BB85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F88990715B5AF390017BB85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F88990F15B5AF390017BB85 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9F88991015B5AF390017BB85 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9F88991215B5AF390017BB85 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9F88991315B5AF390017BB85 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9F88991B15B5AF790017BB85 /* CodeGolf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeGolf.xcdatamodel; sourceTree = "<group>"; };
+		9F88991C15B5AF790017BB85 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../resources/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8898EE15B5AF390017BB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8898F615B5AF390017BB85 /* UIKit.framework in Frameworks */,
+				9F8898F815B5AF390017BB85 /* Foundation.framework in Frameworks */,
+				9F8898FA15B5AF390017BB85 /* CoreGraphics.framework in Frameworks */,
+				9F8898FC15B5AF390017BB85 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8898E615B5AF390017BB85 = {
+			isa = PBXGroup;
+			children = (
+				9F8898FD15B5AF390017BB85 /* CodeGolf */,
+				9F8898F415B5AF390017BB85 /* Frameworks */,
+				9F8898F215B5AF390017BB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8898F215B5AF390017BB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8898F115B5AF390017BB85 /* CodeGolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8898F415B5AF390017BB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8898F515B5AF390017BB85 /* UIKit.framework */,
+				9F8898F715B5AF390017BB85 /* Foundation.framework */,
+				9F8898F915B5AF390017BB85 /* CoreGraphics.framework */,
+				9F8898FB15B5AF390017BB85 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8898FD15B5AF390017BB85 /* CodeGolf */ = {
+			isa = PBXGroup;
+			children = (
+				9F88991A15B5AF790017BB85 /* CodeGolf.xcdatamodeld */,
+				9F88991C15B5AF790017BB85 /* MainStoryboard.storyboard */,
+				9F88990615B5AF390017BB85 /* AppDelegate.h */,
+				9F88990715B5AF390017BB85 /* AppDelegate.m */,
+				9F88990F15B5AF390017BB85 /* MasterViewController.h */,
+				9F88991015B5AF390017BB85 /* MasterViewController.m */,
+				9F88991215B5AF390017BB85 /* DetailViewController.h */,
+				9F88991315B5AF390017BB85 /* DetailViewController.m */,
+				9F8898FE15B5AF390017BB85 /* Supporting Files */,
+			);
+			path = CodeGolf;
+			sourceTree = "<group>";
+		};
+		9F8898FE15B5AF390017BB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8898FF15B5AF390017BB85 /* CodeGolf-Info.plist */,
+				9F88990015B5AF390017BB85 /* InfoPlist.strings */,
+				9F88990315B5AF390017BB85 /* main.m */,
+				9F88990515B5AF390017BB85 /* CodeGolf-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8898F015B5AF390017BB85 /* CodeGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F88991715B5AF390017BB85 /* Build configuration list for PBXNativeTarget "CodeGolf" */;
+			buildPhases = (
+				9F8898ED15B5AF390017BB85 /* Sources */,
+				9F8898EE15B5AF390017BB85 /* Frameworks */,
+				9F8898EF15B5AF390017BB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeGolf;
+			productName = CodeGolf;
+			productReference = 9F8898F115B5AF390017BB85 /* CodeGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8898E815B5AF390017BB85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "TT-Golf.mobi";
+			};
+			buildConfigurationList = 9F8898EB15B5AF390017BB85 /* Build configuration list for PBXProject "CodeGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F8898E615B5AF390017BB85;
+			productRefGroup = 9F8898F215B5AF390017BB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8898F015B5AF390017BB85 /* CodeGolf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8898EF15B5AF390017BB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F88990215B5AF390017BB85 /* InfoPlist.strings in Resources */,
+				9F88991E15B5AF790017BB85 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8898ED15B5AF390017BB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F88990415B5AF390017BB85 /* main.m in Sources */,
+				9F88990815B5AF390017BB85 /* AppDelegate.m in Sources */,
+				9F88991115B5AF390017BB85 /* MasterViewController.m in Sources */,
+				9F88991415B5AF390017BB85 /* DetailViewController.m in Sources */,
+				9F88991D15B5AF790017BB85 /* CodeGolf.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F88990015B5AF390017BB85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F88990115B5AF390017BB85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F88991515B5AF390017BB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F88991615B5AF390017BB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F88991815B5AF390017BB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeGolf/CodeGolf-Prefix.pch";
+				INFOPLIST_FILE = "CodeGolf/CodeGolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F88991915B5AF390017BB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodeGolf/CodeGolf-Prefix.pch";
+				INFOPLIST_FILE = "CodeGolf/CodeGolf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8898EB15B5AF390017BB85 /* Build configuration list for PBXProject "CodeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F88991515B5AF390017BB85 /* Debug */,
+				9F88991615B5AF390017BB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F88991715B5AF390017BB85 /* Build configuration list for PBXNativeTarget "CodeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F88991815B5AF390017BB85 /* Debug */,
+				9F88991915B5AF390017BB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F88991A15B5AF790017BB85 /* CodeGolf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F88991B15B5AF790017BB85 /* CodeGolf.xcdatamodel */,
+			);
+			currentVersion = 9F88991B15B5AF790017BB85 /* CodeGolf.xcdatamodel */;
+			name = CodeGolf.xcdatamodeld;
+			path = ../../resources/CodeGolf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F8898E815B5AF390017BB85 /* Project object */;
+}
